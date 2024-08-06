@@ -49,11 +49,18 @@ export default function Conversation() {
             <span className="text-white text-sm">I will tell them after the meeting.</span>
           </div>
         </div>
-        <div className="flex justify-start w-full">
+        <div className="flex flex-col justify-start w-full">
           <div className="flex bg-[#2E333D] p-4 rounded-lg rounded-bl-none w-fit">
             <span className="text-white text-sm">Okay! See you later.</span>
           </div>
         </div>
+        <div className="flex flex-col justify-end items-end w-full">
+          <div className="flex bg-[#6B8AFD] p-4 rounded-lg rounded-br-none">
+            <span className="text-white text-sm">Great.</span>
+          </div>
+          <span className="text-[#828498] text-xs mt-1 mr-2 block ">Seen</span>
+        </div>
+
 
 
       </div>
