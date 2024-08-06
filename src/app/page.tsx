@@ -1,9 +1,10 @@
 import Image from "next/image";
+import SideMenu from "./components/side-menu";
 
 export default function Home() {
   return (
-    <>
-      Hello World
-    </>
+    <div className="flex h-screen">
+      <SideMenu />
+    </div>
   );
 }
