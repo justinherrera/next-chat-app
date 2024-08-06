@@ -8,7 +8,7 @@ const users = [
     id: 1,
     name: "Kim Zairra",
     avatar: "/avatar1.jpg",
-    message: "Hello, how are you?",
+    message: "Okay! See you later.",
     time: "1:27 AM"
   },
   {
