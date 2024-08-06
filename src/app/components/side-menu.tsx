@@ -9,7 +9,7 @@ export default function SideMenu() {
     <div className="flex flex-col space-y-8">
       <div className="flex flex-col justify-center items-center space-y-2 cursor-pointer bg-[#464646] rounded-lg py-2 px-4">
         <MessageCircle color="#FFFFFF" size={30} />
-        <span className="text-xs text-white">All Chats</span>
+        <span className="text-xs text-white">Chats</span>
       </div>
       <div className="flex flex-col justify-center items-center space-y-2 cursor-pointer">
         <Users color="#9c9c9c" size={30} />
