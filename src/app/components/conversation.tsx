@@ -1,5 +1,9 @@
 
 
 export default function Conversation() {
-  return (<div>Conversation</div>)
+  return (
+    <div className="w-[75%]">
+
+    </div>
+  )
 }
