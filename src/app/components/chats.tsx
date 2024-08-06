@@ -5,42 +5,49 @@ import UserChat from "@/app/components/user-chat";
 
 const users = [
   {
+    id: 1,
     name: "Kim Zairra",
     avatar: "/avatar1.jpg",
     message: "Hello, how are you?",
     time: "1:27 AM"
   },
   {
+    id: 2,
     name: "John Doe",
     avatar: "/avatar2.jpg",
     message: "Are we still on for the meeting?",
     time: "2:15 PM"
   },
   {
+    id: 3,
     name: "Jack Smith",
     avatar: "/avatar3.jpg",
     message: "Can you send me the report?",
     time: "3:45 PM"
   },
   {
+    id: 4,
     name: "Emily Davis",
     avatar: "/avatar5.jpg",
     message: "Happy birthday!",
     time: "4:30 PM"
   },
   {
+    id: 5,
     name: "Michael Brown",
     avatar: "/avatar4.jpg",
     message: "Let's catch up soon.",
     time: "5:20 PM"
   },
   {
+    id: 6,
     name: "Sarah Johnson",
     avatar: "/avatar6.jpg",
     message: "I've sent the files.",
     time: "6:10 PM"
   },
   {
+    id: 7,
     name: "James Wilson",
     avatar: "/avatar2.jpg",
     message: "Did you finish the project?",
@@ -53,12 +60,14 @@ const users = [
     time: "8:15 PM"
   },
   {
+    id: 9,
     name: "David Martinez",
     avatar: "/avatar4.jpg",
     message: "Looking forward to our meeting.",
     time: "9:25 PM"
   },
   {
+    id: 10,
     name: "Aliah Anderson",
     avatar: "/avatar1.jpg",
     message: "Can we reschedule?",
@@ -81,7 +90,7 @@ export default function Chats() {
       <div className="overflow-y-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
       {
         users.map((user, index) => {
-          return (<UserChat user={user} key={index} />)
+          return <UserChat user={user} key={index} />
         })
       }
       </div>
