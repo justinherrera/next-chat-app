@@ -7,7 +7,7 @@ export default function Conversation() {
   return (
     <div className="p-4 w-[75%] flex flex-col">
       <UserChatInfo />
-      <div className="flex flex-col space-y-4 h-full w-full p-4 overflow-y-scroll">
+      <div className="flex flex-col space-y-4 h-full w-full p-4 overflow-y-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] ">
 
         <div className="flex justify-end w-full">
           <div className="flex bg-[#6B8AFD] p-4 rounded-lg rounded-br-none">
