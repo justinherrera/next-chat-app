@@ -1,4 +1,4 @@
-import { Ban, Bell, Search, TriangleAlert, UserPlus, X } from "lucide-react";
+import { Ban, Bell, Search, TriangleAlert, UserPlus, X, File } from "lucide-react";
 
 
 export default function ChatDetails() {
@@ -25,9 +25,34 @@ export default function ChatDetails() {
           <Ban size={24} color="#FFFFFF" className="cursor-pointer" />
         </div>
       </div>
-      <div className="flex justify-between mt-8 w-full">
-        <span className="text-white text-xl mb-1">Media</span>
-        <span className="text-[#a3a3a3] text-xs underline mb-1">See all</span>
+      <div className="flex justify-between items-center mt-8 w-full ">
+        <span className="text-white text-xl">Photos and Videos</span>
+        <span className="text-[#a3a3a3] text-xs underline">See all</span>
+      </div>
+      <div className="flex justify-between items-center mt-8 w-full ">
+        <span className="text-white text-xl">Shared Files</span>
+        <span className="text-[#a3a3a3] text-xs underline">See all</span>
+      </div>
+      <div className="flex flex-col space-y-4 mt-4">
+        <div className="flex justify-start items-center space-x-4">
+          <div className="cursor-pointer bg-[#202329] rounded-lg py-4 px-4 w-fit">
+            <File size={20} color="#FFFFFF" className="cursor-pointer" />
+          </div>
+          <span className="text-white text-sm">Endorsement_Letter.pdf</span>
+        </div>
+        <div className="flex justify-start items-center space-x-4">
+          <div className="cursor-pointer bg-[#202329] rounded-lg py-4 px-4 w-fit">
+            <File size={20} color="#FFFFFF" className="cursor-pointer" />
+          </div>
+          <span className="text-white text-sm">Weekly_Report.docx</span>
+        </div>
+        <div className="flex justify-start items-center space-x-4">
+          <div className="cursor-pointer bg-[#202329] rounded-lg py-4 px-4 w-fit">
+            <File size={20} color="#FFFFFF" className="cursor-pointer" />
+          </div>
+          <span className="text-white text-sm">Monthly_Sales.xlsx</span>
+        </div>
+
       </div>
     </div>
   )
