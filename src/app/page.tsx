@@ -5,10 +5,10 @@ import ChatDetails from "@/app/components/chat-details";
 
 export default function Home() {
   return (
-    <div className="flex h-screen bg-[#131313]">
+    <div className="flex h-screen bg-[#131313] pt-4">
       <SideMenu />
       <ChatConversation />
-      <ChatDetails />
+      {/* <ChatDetails /> */}
     </div>
   );
 }

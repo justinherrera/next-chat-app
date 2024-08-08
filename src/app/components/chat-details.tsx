@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ChatDetails() {
   return (
-    <div className="flex flex-col w-[19%] p-4">
+    <div className="flex flex-col p-4 bg-[#131313]">
       <div className="flex justify-between mt-4 w-full">
         <span className="text-white text-lg mb-1">Chat Details</span>
         <X size={30} color="#FFFFFF" className="cursor-pointer" />

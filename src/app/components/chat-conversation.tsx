@@ -4,10 +4,9 @@ import Conversation from "@/app/components/conversation";
 
 export default function ChatConversation() {
   return (
-    <div className="flex w-[76%] bg-[#202329] rounded-3xl">
+    <div className="flex w-[95%] rounded-3xl">
       <Chats />
       <Conversation />
-      
     </div>
   )
 }
