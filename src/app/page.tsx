@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SideMenu from "./components/side-menu";
+import SideMenu from "@/app/components/side-menu";
 import ChatConversation from "./components/chat-conversation";
 import ChatDetails from "@/app/components/chat-details";
 
