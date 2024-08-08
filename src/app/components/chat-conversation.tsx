@@ -7,6 +7,7 @@ export default function ChatConversation() {
     <div className="flex w-[76%] bg-[#202329] rounded-3xl">
       <Chats />
       <Conversation />
+      
     </div>
   )
 }
