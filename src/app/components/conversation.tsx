@@ -1,6 +1,6 @@
 import { EllipsisVertical, Mic, Paperclip, SendHorizontal } from "lucide-react";
 import Image from "next/image";
-import UserChatInfo from "@/app/components/user-chat-info";
+import UserChatInfo from "@/app/components/chats/user-chat-info";
 import ChatInput from "./chat-input";
 import ChatDetails from "./chats/chat-details";
 

@@ -1,6 +1,6 @@
 import { Search } from "lucide-react";
-import SearchInput from "@/app/components/search-input";
-import UserChat from "@/app/components/user-chat";
+import SearchInput from "@/app/components/chats/search-input";
+import UserChat from "@/app/components/chats/user-chat";
 
 
 const users = [
