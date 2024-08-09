@@ -1,4 +1,4 @@
-import Chats from "@/app/components/chats";
+import Chats from "@/app/components/chats/chats";
 import Conversation from "@/app/components/conversation";
 import PeopleList from "@/app/components/people-page-components/people-list";
 

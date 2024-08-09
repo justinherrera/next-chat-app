@@ -85,7 +85,7 @@ const users = [
 
 export default function Chats() {
   return (
-    <div className="p-4 pr-0 pb-0 flex flex-col space-y-4 w-[25%] bg-[#202329] rounded-l-3xl">
+    <div className="p-4 pr-0 pb-0 flex flex-col space-y-4 w-[25%] bg-[#202329] rounded-l-3xl mb-4">
       <SearchInput />
       <div className="overflow-y-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
       {

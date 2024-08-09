@@ -2,12 +2,12 @@ import { EllipsisVertical, Mic, Paperclip, SendHorizontal } from "lucide-react";
 import Image from "next/image";
 import UserChatInfo from "@/app/components/user-chat-info";
 import ChatInput from "./chat-input";
-import ChatDetails from "./chat-details";
+import ChatDetails from "./chats/chat-details";
 
 export default function Conversation() {
   return (
     <div className="pl-0 pr-0 py-0 w-[75%] flex">
-      <div className="pl-4 flex flex-col w-full rounded-r-3xl bg-[#202329]">
+      <div className="pl-4 flex flex-col w-full rounded-r-3xl bg-[#202329] mb-4">
         <UserChatInfo />
         <div className="flex flex-col space-y-4 h-full w-full p-4 overflow-y-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] ">
 
