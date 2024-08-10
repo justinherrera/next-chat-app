@@ -10,7 +10,6 @@ export default function People() {
   return (
     <div className="flex h-screen bg-[#131313]">
       <SideMenu />
-      {/* <PeopleList /> */}
       <PeopleListConversation />  
       <ChatDetails />
     </div>
