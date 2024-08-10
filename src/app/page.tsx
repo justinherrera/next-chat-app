@@ -8,7 +8,6 @@ export default function Home() {
     <div className="flex h-screen bg-[#131313] pt-4">
       <SideMenu />
       <ChatConversation />
-      {/* <ChatDetails /> */}
     </div>
   );
 }
