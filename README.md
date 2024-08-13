@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Deployed link: https://next-chat-nays9pqyl-justinherreras-projects.vercel.app/
+
+![image](https://github.com/user-attachments/assets/6b2d0f1e-c735-4384-9333-68e0877cd6e9)
+
 
 ## Getting Started
 
